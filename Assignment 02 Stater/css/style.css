@@ -285,6 +285,7 @@ td {
   margin-left: 50px;
   padding: 0px 20px;
   border: 0px;
+  align-items:start;
 }
 .job-in:hover .hiden {
   display: block;
