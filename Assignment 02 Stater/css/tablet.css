@@ -1,0 +1,117 @@
+@media screen and (min-width: 600px) and (max-width: 995px) {
+  section > .container {
+    width: 100%;
+    margin: auto;
+    padding: 30px 30px;
+  }
+  .avatar {
+    display: none;
+  }
+  #nav-bar {
+    text-align: center;
+  }
+  #nav-bar a {
+    text-transform: uppercase;
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    border-right: ridge;
+  }
+
+  .section-title {
+    padding: 50px 30px;
+    font-size: 25px;
+  }
+  .info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .job {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .title {
+    border: 1px solid black;
+    padding: 10px 0px 0px 10px;
+    font-size: small;
+  }
+
+  .project {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+
+  th {
+    vertical-align: top;
+    padding-top: 10px;
+  }
+  td {
+    padding: 10px 0px 10px 20px;
+  }
+
+  .footer {
+    text-align: center;
+    font-size: 2vw;
+  }
+  /*CERTIFICATE*/
+  .cer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 60px 20px;
+    margin-left: 25px;
+    padding-bottom: 25px;
+    position: relative;
+  }
+  .cer img {
+    width: 100%;
+  }
+  .cer::after {
+    content: "";
+    background: #d6c08d;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    height: 2px;
+  }
+
+  .cer2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 25px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+  }
+  .cer-i {
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+  .cer-items {
+    display: grid;
+    grid-template-rows: 30% 40%;
+  }
+  /*CERTIFICATE*/
+
+  .border-r {
+    padding-right: 20px;
+    border-right: 1px solid #d6c08d;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .like {
+    margin-top: 50px;
+    margin-left: 20px;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 70px 0px;
+  }
+  .like p {
+    width: max-content;
+  }
+}

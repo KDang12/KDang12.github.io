@@ -1,0 +1,291 @@
+@media screen and (min-width: 995px) {
+  section > .container {
+    width: 100%;
+    margin: auto;
+    padding: 30px 50px;
+  }
+  #nav-bar {
+    text-align: center;
+  }
+  #nav-bar a {
+    text-transform: uppercase;
+    color: black;
+    padding: 20px 20px;
+    text-decoration: none;
+    border-right: ridge;
+    font-size: 15px;
+  }
+  /*ìnormation*/
+  .info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  #personal-info {
+    padding-left: 50px;
+  }
+  /*certicate*/
+  .cer-i {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+  .cer::after {
+    content: "";
+    background: #d6c08d;
+    width: 100%;
+    position: absolute;
+    top: 160px;
+    height: 2px;
+  }
+
+  .border-r {
+    border-right: 1px solid #d6c08d;
+  }
+  .m-r {
+    margin-right: 150px;
+  }
+  .m-l {
+    margin-left: 150px;
+  }
+  .footer {
+    text-align: center;
+    font-size: 2vw;
+  }
+}
+/*link*/
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: black;
+}
+
+.hiden {
+  display: none;
+}
+.hidenl {
+  visibility: hidden;
+}
+
+* {
+  margin: 0px;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+.avatar {
+  border: 10px solid white;
+  border-radius: 100%;
+  width: 200px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+/*   Ảnh     */
+#banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*   Ảnh     */
+
+h1 {
+  font-size: 40px;
+}
+
+i {
+  color: cornflowerblue;
+  padding-right: 5px;
+}
+/*INFORMATION*/
+ul {
+  list-style-type: none;
+}
+#job-info li {
+  position: relative;
+  padding-bottom: 1em;
+  padding-left: 0px;
+}
+
+#job-info li:after {
+  content: "";
+  background: cornflowerblue;
+  border-radius: 100%;
+  border: 2px solid white;
+  position: absolute;
+  left: -20px;
+  top: 5px;
+  height: 8px;
+  width: 8px;
+}
+
+.info-l {
+  list-style-type: none;
+}
+.info-l li {
+  margin-bottom: 10px;
+}
+.section-title {
+  padding: 50px 30px;
+}
+
+/* JOB */
+.job {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.job-in {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  padding: 50px 0px 40px 0px;
+  margin-left: 20px;
+}
+
+span {
+  background-color: rgb(84, 84, 218);
+  padding: 3px 10px 3px 10px;
+  border-radius: 12px;
+  color: white;
+}
+.job li {
+  margin: 40px 20px 50px 0px;
+}
+
+/* JOB */
+
+/*CSS Sở thích*/
+.like {
+  margin-top: 50px;
+  margin-left: 10px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  padding-bottom: 50px;
+}
+.icon {
+  width: 60px;
+  height: 50px;
+  padding-top: 10px;
+  border: 1px solid cornflowerblue;
+  border-radius: 100%;
+}
+
+/*CSS Sở thích*/
+
+.skill {
+  background: #199cdb;
+  display: inline-block;
+  height: 1px;
+  margin-right: 10px;
+  width: 45px;
+}
+.no-skill {
+  background: #b5bdc0;
+  display: inline-block;
+  height: 1px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+/*Chung Chi*/
+.cer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 60px 20px;
+  margin-left: 25px;
+  padding-bottom: 25px;
+  position: relative;
+}
+.cer img {
+  width: 100%;
+}
+
+.cer2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-left: 25px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.cer-items {
+  display: grid;
+  grid-template-rows: 30% 40%;
+}
+.cer-items p {
+  color: rgb(156, 153, 153);
+}
+.cer-items strong {
+  font-size: 15px;
+}
+
+/*Dự án*/
+.project {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.project-i {
+  display: grid;
+}
+
+table,
+tr {
+  margin-right: 25px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr {
+  border-collapse: collapse;
+}
+th {
+  vertical-align: top;
+  padding-top: 10px;
+  width: 85px;
+}
+.title {
+  margin-right: 25px;
+  border: 1px solid black;
+  padding: 20px 0px 0px 20px;
+}
+.title2 {
+  margin-right: 25px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 20px 0px 0px 20px;
+}
+td {
+  padding: 10px 0px 10px 10px;
+}
+
+.input {
+  width: 100%;
+}
+.btn {
+  background-color: #115f83;
+  color: white;
+}
+.mail {
+  color: rgb(156, 153, 153);
+}
+
+.btn-view {
+  text-transform: uppercase;
+  background-color: #fcd57a;
+  border-radius: 12px;
+  margin-left: 50px;
+  padding: 0px 20px;
+  border: 0px;
+}
+.job-in:hover .hiden {
+  display: block;
+}
